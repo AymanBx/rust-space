@@ -1,5 +1,10 @@
 {
 	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"customizations": {
+		"vscode": {
+		  "extensions": ["eamodio.gitlens", "ngtystr.pbm-ppm-pgm-viewer", "tomoki1207.vscode-pdf"]
+		}
+	  },
 	"features": {
 		"ghcr.io/devcontainers/features/rust:1": {
 			"version": "latest",
