@@ -5,9 +5,7 @@
 	  },
 	"customizations": {
 		"vscode": {
-			// "extensions": ["eamodio.gitlens"],
-			"extensions": ["tomoki1207.vscode-pdf"]
-			// "extensions": ["ngtystr.pbm-ppm-pgm-viewer"]
+			"extensions": ["eamodio.gitlens","tomoki1207.pdf","ngtystr.ppm-pgm-viewer-for-vscode"]
 		}
 	  },
 	"features": {
