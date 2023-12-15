@@ -2,7 +2,11 @@
 	"image": "mcr.microsoft.com/devcontainers/universal:2",
 	"customizations": {
 		"vscode": {
-		  "extensions": ["eamodio.gitlens", "ngtystr.pbm-ppm-pgm-viewer", "tomoki1207.vscode-pdf"]
+		  "extensions": [
+			"eamodio.gitlens",
+		   "ngtystr.pbm-ppm-pgm-viewer",
+		    "tomoki1207.vscode-pdf",
+			"jcupitt.image-viewer"]
 		}
 	  },
 	"features": {
@@ -10,5 +14,6 @@
 			"version": "latest",
 			"profile": "complete"
 		}
-	}
+	},
+	"postCreateCommand": "apt-get update && apt-get install -y zip"
 }
