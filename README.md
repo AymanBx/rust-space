@@ -10,7 +10,7 @@ The purpose of this template repository is research the ability to personalizing
 
 For any future Rust project that you intend on working on. you can create a new repo using this one as a template.  
 The existing file devcontainer.json contains commands and codespace settings that will be fetched when initiating a codespace in a project that contains that file.  
-When you create a new codespace in a repo that has this file. The codespace will get built with Cargo installed in the termial and some useful extensions installed into VS Code.  
+When you create a new codespace in a repo that has this file. The codespace will get built with Cargo installed in the termial and some useful extensions installed into VS Code.   
 
 For existing projects you can copy the file devcontainer.json into your repo from this one and attempt to build a new codespace after that.  
 
@@ -28,7 +28,7 @@ The class encourages peer programming and collaborating through GitHub is a grea
 
 Because of the relative age of Rust compared to other programming languages some of the tools related to compiling and building Rust executables might be a bit unsettling on windows machines.  
 So encouraging students to learn about codespace and complete their projects with it while getting comportable with using bash all at the same time could be a huge benefit.  
-Not to forget cutting down the time of setting up the environment and fetching all the necessary tools.
+Not to forget cutting down the time of setting up the environment and fetching all the necessary tools.  
 
 
 ### More thoughts
@@ -38,7 +38,7 @@ Instructions were very lacking and vague on the matter.
 But more research will come to expand this repo and find bigger and better ideas.  
 
 In the personal user setting in GitHub there's a tab for codespace settings in which one can pick a template repo to be used for every codespace that will be built in the future.   
-I attempted to apply this repo as my codespace template but codespaces built in other repos after applying these settings did not get built with cargo installed in them.  
+I attempted to apply this repo as my codespace template but codespaces built in other repos after applying these settings did not get built with cargo installed in them.    
 More research will come to study and figure out this issue.  
 
 ### Resources
@@ -46,7 +46,7 @@ More research will come to study and figure out this issue.
 As mentioned earlier, resources were very lacking on the subject matter.  
 Here are some of the links that I was reading through during this research:  
 
-[Personalizing Codespaces with Dotfiles](https://docs.github.com/en/codespaces/setting-your-user-preferences/personalizing-github-codespaces-for-your-account#dotfiles)
-[More on Dotfiles](https://dotfiles.github.io/tutorials/)
-[A tutorial for creating a codespace template](https://blog.sachinchaurasiya.dev/how-to-create-custom-github-codespaces-template)
-[Customizing codespaces](https://www.infoq.com/news/2022/02/github-codespaces-templates/)
+[Personalizing Codespaces with Dotfiles](https://docs.github.com/en/codespaces/setting-your-user-preferences/personalizing-github-codespaces-for-your-account#dotfiles)  
+[More on Dotfiles](https://dotfiles.github.io/tutorials/)  
+[A tutorial for creating a codespace template](https://blog.sachinchaurasiya.dev/how-to-create-custom-github-codespaces-template)  
+[Customizing codespaces](https://www.infoq.com/news/2022/02/github-codespaces-templates/)  
